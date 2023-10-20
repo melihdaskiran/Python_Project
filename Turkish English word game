@@ -2,7 +2,7 @@ import random
 import tkinter as tk
 from tkinter import messagebox
 
-# İngilizce kelimeler ve Türkçe karşılıkları
+# English words and their Turkish equivalents
 word_dict = {
     "Accept": "Kabul etmek",
     "Accuse": "Suçlamak",
@@ -413,7 +413,7 @@ word_dict = {
     "Worry": "Endişelenmek",
     "Write": "Yazmak"
             
-    # Daha fazla kelime ekleyebilirsiniz
+    # You can add more words
 }
 
 class WordGameApp:
@@ -461,3 +461,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = WordGameApp(root)
     root.mainloop()
+# interface created with chatgpt
